@@ -1,31 +1,73 @@
-# Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: Gelaxiz
+repo: upptime
+user-agent: Gelaxiz-Upptime
+secrets: []
+
+skipDeleteIssues: true
+delay: 1000
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Secret Site
-    url: $SECRET_SITE
+  - name: Gelaxiz main site
+    url: https://gelaxiz.xyz
+    maxResponseTime: 5000
+  - name: Nullhost
+    url: https://nullhost.cc
+    maxResponseTime: 5000
+  - name: Media downloader
+    url: https://yt.gelaxiz.xyz
+    maxResponseTime: 10000
+  - name: Docs
+    url: https://docs.gelaxiz.xyz
+    maxResponseTime: 5000
+  - name: First Drop song guesser
+    url: https://song.gelaxiz.xyz
+    maxResponseTime: 5000
+  - name: Fluxer chat
+    url: https://chat.gelaxiz.xyz
+    maxResponseTime: 10000
+  - name: File browser
+    url: https://files.gelaxiz.xyz
+    maxResponseTime: 5000
+  - name: Raw files
+    url: https://rawfiles.gelaxiz.xyz
+    maxResponseTime: 5000
+  - name: Web proxy
+    url: https://www-proxy.gelaxiz.xyz
+    maxResponseTime: 10000
+  - name: Netlify mirror
+    url: https://netlify.gelaxiz.xyz
+    maxResponseTime: 5000
+  - name: Radio - Nelonen Media
+    url: https://radio.gelaxiz.xyz/status-json.xsl
+    maxResponseTime: 5000
+    __dangerous__body_down_if_text_missing: "loop.mp3"
+  - name: Radio - Järviradio
+    url: https://radio.gelaxiz.xyz/status-json.xsl
+    maxResponseTime: 5000
+    __dangerous__body_down_if_text_missing: "jr.mp3"
+  - name: Radio - Mökkiradio
+    url: https://radio.gelaxiz.xyz/status-json.xsl
+    maxResponseTime: 5000
+    __dangerous__body_down_if_text_missing: "mokkiradio.mp3"
+  - name: Radio - PopFM
+    url: https://radio.gelaxiz.xyz/status-json.xsl
+    maxResponseTime: 5000
+    __dangerous__body_down_if_text_missing: "popfm.mp3"
+
+assignees:
+  - Gelaxiz
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  baseUrl: /upptime
+  theme: night
+  logoUrl: https://gelaxiz.xyz/css/favicon.ico
+  name: Gelaxiz Status
+  introTitle: "Gelaxiz service status"
+  introMessage: Live availability and response-time history for the services hosted by Gelaxiz.
   navbar:
     - title: Status
-      href: /
+      href: /upptime
+    - title: Gelaxiz
+      href: https://gelaxiz.xyz
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
-
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
