@@ -40,19 +40,19 @@
     "url": "https://yt.gelaxiz.xyz",
     "icon": "https://icons.duckduckgo.com/ip3/yt.gelaxiz.xyz.ico",
     "slug": "media-downloader",
-    "status": "down",
-    "uptime": "25.28%",
-    "uptimeDay": "25.28%",
-    "uptimeWeek": "25.28%",
-    "uptimeMonth": "25.28%",
-    "uptimeYear": "25.28%",
-    "time": 645,
-    "timeDay": 645,
-    "timeWeek": 645,
-    "timeMonth": 645,
-    "timeYear": 645,
+    "status": "up",
+    "uptime": "9.40%",
+    "uptimeDay": "9.40%",
+    "uptimeWeek": "9.40%",
+    "uptimeMonth": "9.40%",
+    "uptimeYear": "9.40%",
+    "time": 707,
+    "timeDay": 707,
+    "timeWeek": 707,
+    "timeMonth": 707,
+    "timeYear": 707,
     "dailyMinutesDown": {
-      "2026-09-02": 1
+      "2026-09-02": 6
     }
   },
   {
