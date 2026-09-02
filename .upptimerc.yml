@@ -22,7 +22,10 @@ sites:
   - name: First Drop song guesser
     url: https://song.gelaxiz.xyz
     maxResponseTime: 5000
-  - name: Fluxer chat
+  - name: Fluxer
+    url: https://fchat.gelaxiz.xyz
+    maxResponseTime: 10000
+  - name: Sharkord
     url: https://chat.gelaxiz.xyz
     maxResponseTime: 10000
   - name: File browser
@@ -59,7 +62,7 @@ assignees:
 
 status-website:
   baseUrl: /upptime
-  theme: night
+  themeUrl: https://gelaxiz.github.io/upptime/gelaxiz-status.css
   logoUrl: https://gelaxiz.xyz/css/favicon.ico
   name: Gelaxiz Status
   introTitle: "Gelaxiz service status"
