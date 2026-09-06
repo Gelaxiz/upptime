@@ -40,23 +40,6 @@ sites:
   - name: Netlify mirror
     url: https://netlify.gelaxiz.xyz
     maxResponseTime: 5000
-  - name: Radio - Nelonen Media
-    url: https://radio.gelaxiz.xyz/status-json.xsl
-    maxResponseTime: 5000
-    __dangerous__body_down_if_text_missing: "loop.mp3"
-  - name: Radio - Järviradio
-    url: https://radio.gelaxiz.xyz/status-json.xsl
-    maxResponseTime: 5000
-    __dangerous__body_down_if_text_missing: "jr.mp3"
-  - name: Radio - Mökkiradio
-    url: https://radio.gelaxiz.xyz/status-json.xsl
-    maxResponseTime: 5000
-    __dangerous__body_down_if_text_missing: "mokkiradio.mp3"
-  - name: Radio - PopFM
-    url: https://radio.gelaxiz.xyz/status-json.xsl
-    maxResponseTime: 5000
-    __dangerous__body_down_if_text_missing: "popfm.mp3"
-
 assignees:
   - Gelaxiz
 
