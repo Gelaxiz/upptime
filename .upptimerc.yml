@@ -22,9 +22,6 @@ sites:
   - name: First Drop song guesser
     url: https://song.gelaxiz.xyz
     maxResponseTime: 5000
-  - name: Fluxer
-    url: https://fchat.gelaxiz.xyz
-    maxResponseTime: 10000
   - name: Sharkord
     url: https://chat.gelaxiz.xyz
     maxResponseTime: 10000
