@@ -8,33 +8,43 @@ delay: 1000
 
 sites:
   - name: Gelaxiz main site
+    slug: gelaxiz-main-site-v2
     url: https://gelaxiz.xyz
     maxResponseTime: 5000
   - name: Nullhost
+    slug: nullhost-v2
     url: https://nullhost.cc
     maxResponseTime: 5000
   - name: Media downloader
+    slug: media-downloader-v2
     url: https://yt.gelaxiz.xyz
     maxResponseTime: 10000
   - name: Docs
+    slug: docs-v2
     url: https://docs.gelaxiz.xyz
     maxResponseTime: 5000
   - name: First Drop song guesser
+    slug: first-drop-song-guesser-v2
     url: https://song.gelaxiz.xyz
     maxResponseTime: 5000
   - name: Sharkord
+    slug: sharkord-v2
     url: https://chat.gelaxiz.xyz
     maxResponseTime: 10000
   - name: File browser
+    slug: file-browser-v2
     url: https://files.gelaxiz.xyz
     maxResponseTime: 5000
   - name: Raw files
+    slug: raw-files-v2
     url: https://rawfiles.gelaxiz.xyz
     maxResponseTime: 5000
   - name: Web proxy
+    slug: web-proxy-v2
     url: https://www-proxy.gelaxiz.xyz
     maxResponseTime: 10000
   - name: Netlify mirror
+    slug: netlify-mirror-v2
     url: https://netlify.gelaxiz.xyz
     maxResponseTime: 5000
 assignees:
