@@ -47,10 +47,6 @@ jobs:
         with:
           ref: ${{ github.head_ref || github.ref_name }}
           token: ${{ steps.app_token.outputs.token || secrets.GH_PAT || github.token }}
-      - name: Reject Cloudflare tunnel error pages
-        run: |
-          python3 scripts/reject-cloudflare-error-pages.py
-          git update-index --assume-unchanged .upptimerc.yml
       - name: Check endpoint status
         uses: upptime/uptime-monitor@v1.44.0
         with:
